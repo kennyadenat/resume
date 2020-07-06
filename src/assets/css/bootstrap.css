@@ -1852,6 +1852,49 @@ select[multiple].input-lg {
     font-size: 12px;
   }
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #000;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #000;
+}
+
+.headland {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: -220px;
+  opacity: 1;
+}
+
+@media (max-device-width: 480px) {
+  .headland {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: -350px;
+    opacity: 1;
+  }
+}
+
 .btn {
   display: inline-block;
   margin-bottom: 0;
