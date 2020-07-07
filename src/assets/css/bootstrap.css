@@ -482,10 +482,11 @@ p {
   font-size: 16px;
   font-weight: 300;
   line-height: 1.4;
+  font-family: 'Noto Sans', sans-serif;
 }
 @media (min-width: 768px) {
   .lead {
-    font-size: 21px;
+    font-size: 20px;
   }
 }
 small,
@@ -787,7 +788,7 @@ pre code {
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 1370px;
   }
 }
 .container-fluid {

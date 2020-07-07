@@ -158,7 +158,7 @@ body.side-panel-left.side-push-panel.side-panel-open.stretched #header .containe
 	Portfolio Overlay
 ---------------------------------------------------------------------------- */
 
-.portfolio-overlay { background-color: rgba(255,255,255,0.9); }
+.portfolio-overlay { background-color: rgba(0, 0, 0, 0.7); }
 
 .portfolio-overlay .portfolio-desc h3 {
 	font-size: 22px;
@@ -320,16 +320,16 @@ body.side-panel-left.side-push-panel.side-panel-open.stretched #header .containe
 ---------------------------------------------------------------------------- */
 
 .border-form-control {
-	height: 48px;
+	height: 50px;
 	padding: 8px 4px;
-	font-size: 21px;
+	font-size: 15px;
 	letter-spacing: 1px;
 	background-color: transparent !important;
 	border-top: transparent;
 	border-right: transparent;
 	border-left: transparent;
 	border-bottom-width: 1px;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Noto Sans', sans-serif;
 }
 
 .border-form-control::-moz-placeholder { font-weight: 300; }
